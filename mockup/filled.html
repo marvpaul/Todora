@@ -1,10 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todora</title>
+    <link rel="stylesheet" type="text/css" href="../todora.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </head>
 <body>
-$END$
+<div class="container">
+    <header>
+        <h1 ><span class="badge badge-default">Wilkommen bei Todora</span></h1>
+        <button id="createTODO" class="btn btn-primary">Create TODO</button>
+    </header>
+    <br>
+    <div id="gridView" class="row">
+        <div class="text-center col-12 col-md-4">
+            <div class="list card">
+                <div class="titleList card-header" id="<<listName>>">Meine Liste1</div>
+                <div class="card-text">
+                    <br>
+                    <ul>
+                        <li>
+                            <input type="checkbox" checked="true"> Milch <button>Löschen</button>
+                        </li>
+                        <li>
+                            <input type="checkbox"> Käse <button class="delete">Löschen</button>
+                        </li>
+                        <li>
+                            <input type="checkbox"> Butter <button>Löschen</button>
+                        </li>
+                    </ul>
+                        <button>Add entry</button>
+                        <br>
+                        <button>Delete todo</button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center col-12 col-md-4">
+            <div class="list card">
+                <div class="titleList card-header" id="<<listName>>">Meine Liste1</div>
+                <div class="card-text">
+                    <br>
+                    <li>
+                        <ul>
+                            Leere Liste
+                        </ul>
+                        <ul>
+                            <button>Add entry</button>
+                        </ul>
+                        <ul>
+                            <button>Delete todo</button>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+        <div class="text-center col-12 col-md-4">
+            <div class="list card">
+                <div class="titleList card-header" id="<<listName>>">Meine Liste1</div>
+                <div class="card-text">
+                    <br>
+                    <li>
+                        <ul>
+                            <input type="checkbox" checked="true"> Milch <button>Löschen</button>
+                        </ul>
+                        <ul>
+                            <input type="checkbox"> Käse <button>Löschen</button>
+                        </ul>
+                        <ul>
+                            <input type="checkbox"> Butter <button>Löschen</button>
+                        </ul>
+                        <ul>
+                            <button>Add entry</button>
+                        </ul>
+                        <ul>
+                            <button>Delete todo</button>
+                        </ul>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>

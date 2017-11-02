@@ -1,0 +1,81 @@
+.list{
+    /*
+    background: rgba(47, 123, 128, 0.25);
+    width: 30%;
+    text-align: center;
+    display:inline-block;
+    vertical-align:top;
+    */
+
+}
+
+#gridView{
+    /*
+
+    text-align: center;
+    vertical-align:top;
+    */
+}
+
+@media (max-width: 800px)  {
+    /*
+    .list{
+        width: 48%;
+    }*/
+}
+
+body {
+    background-color: rgba(0, 40, 230, 0.14) !important;
+    background: -moz-linear-gradient(266deg, rgba(10,214,255,0.15) 0%, rgba(123,167,199,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(10,214,255,0.15)), color-stop(100%, rgba(123,167,199,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(266deg, rgba(10,214,255,0.15) 0%, rgba(123,167,199,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(266deg, rgba(10,214,255,0.15) 0%, rgba(123,167,199,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(266deg, rgba(10,214,255,0.15) 0%, rgba(123,167,199,1) 100%); /* ie10+ */
+    background: linear-gradient(184deg, rgba(10,214,255,0.15) 0%, rgba(123,167,199,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0AD6FF', endColorstr='#7BA7C7',GradientType=0 ); /* ie6-9 */
+}
+
+.container{
+    min-height: 100vh;
+}
+
+header{
+    text-align: center;
+}
+
+.delete{
+    margin-right: 0;
+}
+
+.list{
+    border-radius: 1%;
+}
+
+.delEntry{
+    width: 10%;
+    display: inline-block;
+}
+
+
+
+.todo-entry{
+    width: 100%;
+    line-height: 3;
+    display: inline-block !important;
+}
+
+#checkbox-div{
+    width: 10%;
+    display: inline-block;
+}
+
+#content{
+    display: inline-block;
+}
+
+.btn i.fa-check.box {
+    opacity: 0;
+}
+.btn i.fa-check.box {
+    opacity: 1;
+}
