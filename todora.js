@@ -60,8 +60,9 @@ function addTodolist(name){
         addTodolistItem(event)
     });
 
+    $('#' + ID + " .del.todo-list").attr("id", ID);
     $('#' + ID + ' .del.todo-list').bind("click", function(){
-        delTodoList(ID);
+        delTodoList(event);
     })
 }
 
@@ -147,6 +148,10 @@ function delTodoList(event){
     }
 }
 
+/**
+ * Restore the data which is saved in browser storage
+ * --> Lists and list entries
+ */
 function restoreData(){
     for(i = 0; i < data.lists.length; i++){
 
