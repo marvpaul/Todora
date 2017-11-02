@@ -2,7 +2,8 @@ var data = null;
 var card = "            <div class=\"list text-white bg-primary mb-3\">\n" +
     "                <div class=\"titleList card-header \">Meine Liste1</div>\n" +
     "                <div class=\"card-body\">\n" +
-    "                    <br>\n" +
+    "                    <br>" +
+    "                        <div class='progressBar'></div>" +
     "                        <div class='empty'>" +
     "                            Leere Liste" +
     "                        </div>" +
@@ -99,9 +100,12 @@ function delListItem(event, entryId, listId){
 function addTodolistItem(event){
     for(i = 0; i < data.lists.length; i++){
         if(data.lists[i].id == event.target.id){
-            content = $("#" + i + " input.todo-entry-input").val();
-            $("#" + i + " input.todo-entry-input").val("");
-            $("#" + i + " .empty").css("display", "none");
+            content = $("#" + event.target.id + " input.todo-entry-input").val();
+            $("#" + event.target.id + " input.todo-entry-input").val("");
+            $("#" + event.target.id + " .empty").css("display", "none");
+            $("#" + event.target.id + " .progressBar").append("<div class=\"progress\">\n" +
+                "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>" +
+                "</div>");
             entryID = data.count;
             data.count += 1;
             data.lists[i].entries.push({
