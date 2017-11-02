@@ -25,7 +25,13 @@ $(document).ready(function() {
     document.getElementById("createTODO").addEventListener("click", function(){
         addList(event);
     });
-    console.log(data)
+
+    $("input#inputNewList").keyup(function(e){
+        if(e.keyCode == 13)
+        {
+            addList(event);
+        }
+    });
 });
 
 function addList(event) {
@@ -54,7 +60,7 @@ function addTodolist(name){
         addTodolistItem(event)
     });
 
-    $('.del.todo-list').bind("click", function(){
+    $('#' + ID + ' .del.todo-list').bind("click", function(){
         delTodoList(ID);
     })
 }
@@ -73,7 +79,7 @@ function delListItem(event, entryId, listId){
                 $("#" + entryId + ".todo-entry").addClass("animated bounceOut");
                 window.setTimeout( function(){
                     $("#" + entryId + ".todo-entry").remove();
-                }, 1000);
+                }, 500);
 
                 if(data.lists[i].entries.length == 0){
                     $("#" + listId + " .empty").css("display", "block");
@@ -125,14 +131,14 @@ function delListItemEvent(entryId, listId){
  * Del a certain todo list
  * @param listId the list to delete
  */
-function delTodoList(listId){
+function delTodoList(event){
     for(i = 0; i < data.lists.length; i++){
-        if(data.lists[i].id == listId){
+        if(data.lists[i].id == event.target.id){
             data.lists.splice(i, 1);
-            $(".todo-list#" + listId).addClass("animated bounceOut");
+            $(".todo-list#" + event.target.id).addClass("animated bounceOut");
             window.setTimeout( function(){
-                $(".todo-list#" + listId).remove();
-            }, 1000);
+                $(".todo-list#" + event.target.id).remove();
+            }, 500);
         }
         localStorage.setItem('data', JSON.stringify(data));
     }
@@ -143,6 +149,7 @@ function delTodoList(listId){
 
 function restoreData(){
     for(i = 0; i < data.lists.length; i++){
+
         $('.info.welcome').css("display", "none");
 
         ID = data.lists[i].id;
@@ -157,12 +164,12 @@ function restoreData(){
             addTodolistItem(event)
         });
 
-        $('.del.todo-list').bind("click", function(){
-            delTodoList(ID);
-        })
+        $('#' + ID + " .del.todo-list").attr("id", ID);
+        $('#' + ID + ' .del.todo-list').bind("click", function(){
+            delTodoList(event);
+        });
 
         for(j = 0; j < data.lists[i].entries.length; j++){
-            console.log("Hello");
                 content = data.lists[i].entries[j].name;
                 $("#" + i + " .empty").css("display", "none");
                 entryID = data.lists[i].entries[j].id;
