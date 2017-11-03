@@ -87,3 +87,7 @@ header{
 .titleList{
     line-height: 2;
 }
+
+#amountOfChecked{
+    white-space:pre;
+}

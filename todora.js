@@ -135,7 +135,7 @@ function addEntryToDom(name, entryID, listID){
 
     if($('#' + listID + ' .progress').length == 0){
         $("#" + listID + " .progressBar").append("<div class=\"progress\">\n" +
-            "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div id='amountOfChecked' style='white-space:pre;'></div></div>" +
+            "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div id='amountOfChecked'></div></div>" +
             "</div>");
         var progress = getProgress(listID);
         $("#" + listID + " #amountOfChecked").text("        " + progress);
