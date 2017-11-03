@@ -1,19 +1,19 @@
 var data = null;
 var card = "            <div class=\"list text-white bg-primary mb-3\">\n" +
-    "                <div class=\"titleList card-header \">Meine Liste1</div>\n" +
+    "                <div class=\"titleList card-header \"><button class='del todo-list btn btn-danger'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></button></div>\n" +
     "                <div class=\"card-body\">\n" +
     "                    <br>" +
     "                        <div class='progressBar'></div>" +
     "                        <div class='empty'>" +
     "                            Leere Liste" +
     "                        </div>" +
-    "<br><input class='todo-entry-input'> <button class='add btn btn-success'>Add entry</button>\n" +
-    "                            <br><button class='del todo-list btn btn-danger'>Delete todo</button>\n"+
+    "<br><input class='todo-entry-input'><button class='add btn btn-success'>Add entry</button>\n" +
+    "                            <br>\n"+
     "                </div>\n" +
     "            </div>\n" +
-    "        </div>"
-$(document).ready(function() {
+    "        </div>";
 
+$(document).ready(function() {
     data = JSON.parse(localStorage.getItem('data'));
     if(data == null){
         data = {
@@ -23,69 +23,222 @@ $(document).ready(function() {
     }
     restoreData();
 
+    //Create new TODOList
     document.getElementById("createTODO").addEventListener("click", function(){
-        addList(event);
+        var name = $("#inputNewList").val();
+        $("#inputNewList").val("");
+        ID = addTodoListToStore(name);
+        addTodoListToDom(name, ID);
     });
 
     $("input#inputNewList").keyup(function(e){
         if(e.keyCode == 13)
         {
-            addList(event);
+            var name = $("#inputNewList").val();
+            $("#inputNewList").val("");
+            ID = addTodoListToStore(name);
+            addTodoListToDom(name, ID);
         }
     });
 });
 
-function addList(event) {
-    var name = $("#inputNewList").val();
-    $("#inputNewList").val("");
-    addTodolist(name);
-}
-
-function addTodolist(name){
+function addTodoListToDom(name, ID){
     $('.info.welcome').css("display", "none");
-
-    var ID = data.lists.length;
-    list = {id: ID,
-            name : name,
-            entries : []};
-    data.lists.push(list);
-    localStorage.setItem('data', JSON.stringify(data));
 
     //Add list template
     $('#gridView').append("<div class=\"text-center col-12 col-md-4 todo-list animated bounceIn\" id=\"" + ID + "\">" + card);
-    $('#' + ID + " .card-header").text(name);
+    $('#' + ID + " .card-header").prepend(name);
 
     //Add button functionality
     $('#' + ID + " .add").attr("id", ID);
     $('#' + ID + " .add").bind("click",function(){
-        addTodolistItem(event)
+        name = $("#" + ID + " input.todo-entry-input").val();
+        $("#" + ID+ " input.todo-entry-input").val("");
+        entryID = addEntryToStore(name, ID);
+        addEntryToDom(name, entryID, ID);
     });
 
     $('#' + ID + " .del.todo-list").attr("id", ID);
     $('#' + ID + ' .del.todo-list').bind("click", function(){
-        delTodoList(event);
+        delTodoListFromStore(ID);
+        delTodoListFromDom(ID);
     })
 }
 
 /**
- * Remove a todolist item
- * @param event the event which is fired when pressing the delete button
+ * Del a certain todolist from dom
+ * @param listId the list to delete
  */
-function delListItem(event, entryId, listId){
+function delTodoListFromDom(id){
+    $(".todo-list#" + id).addClass("animated bounceOut");
+    window.setTimeout(function () {
+        $(".todo-list#" + id).remove();
+    }, 500);
+    if(data.lists.length == 0){
+        $('.info.welcome').css("display", "block");
+    }
+}
+
+/**
+ * Add a list to the store
+ * @param name
+ * @returns id of the newly created list
+ */
+function addTodoListToStore(name){
+    var ID = data.lists.length;
+    list = {id: ID,
+        name : name,
+        entries : []};
+    data.lists.push(list);
+    localStorage.setItem('data', JSON.stringify(data));
+    return ID;
+}
+
+/**
+ * Del a certain todolist from store
+ * @param listId the list to delete
+ */
+function delTodoListFromStore(id){
+    for(i = 0; i < data.lists.length; i++){
+        if(data.lists[i].id ==id){
+            data.lists.splice(i, 1);
+        }
+        localStorage.setItem('data', JSON.stringify(data));
+    }
+}
+
+/**
+ * Add a new todolist item to dom
+ * @param name name of the entry / content
+ * @param entryID
+ * @param listID
+ */
+function addEntryToDom(name, entryID, listID){
+    $("#" + listID + " .empty").css("display", "none");
+    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"'></div><div id='content' class='col-md-8'>" + name + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
+    //Remove button functionality
+    $('#' + entryID + " .delEntry").attr("id", entryID);
+    $('#' + entryID + " .delEntry").addClass(listID);
+    $('#' + entryID + " .delEntry").bind("click",function(){
+        delEntryFromStore(entryID);
+        delEntryFromDom(entryID, listID);
+    });
+
+    for(var i = 0; i < data.lists.length; i++){
+        for(var j = 0; j < data.lists[i].entries.length; j++){
+            if(data.lists[i].entries[j].id == entryID){
+                $('#' + entryID + ' :checkbox').prop('checked', data.lists[i].entries[j].checked);
+            }
+        }
+    }
+
+
+    if($('#' + listID + ' .progress').length == 0){
+        $("#" + listID + " .progressBar").append("<div class=\"progress\">\n" +
+            "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div id='amountOfChecked' style='white-space:pre;'></div></div>" +
+            "</div>");
+        var progress = getProgress(listID);
+        $("#" + listID + " #amountOfChecked").text("        " + progress);
+        setProgressbarValue(listID, progress);
+    } else{
+
+    }
+
+    $('input#' + entryID + '.' + listID).change(function(){
+       setEntryCheck(this.checked, entryID);
+        var progress = getProgress(listID);
+        $("#" + listID + " #amountOfChecked").text(progress);
+        setProgressbarValue(listID, progress)
+    });
+}
+
+function setProgressbarValue(listID, progress){
+    $('#' + listID + ' .progress-bar').css("width", eval(progress)*100 + "%");
+}
+
+function setEntryCheck(checked, entryID) {
+    for (i = 0; i < data.lists.length; i++) {
+        for (j = 0; j < data.lists[i].entries.length; j++) {
+            if(data.lists[i].entries[j].id == entryID){
+                data.lists[i].entries[j].checked = checked;
+            }
+        }
+    }
+    localStorage.setItem('data', JSON.stringify(data));
+}
+
+/**
+ * Get the progress for a list
+ * @param listID id of the list
+ * @returns Progress as string 2/2
+ */
+function getProgress(listID){
+    entireEntries = 0;
+    checkedEntries = 0;
+    for(i = 0; i < data.lists.length; i++){
+        if(data.lists[i].id == listID){
+            entireEntries = data.lists[i].entries.length;
+            for(j = 0; j < data.lists[i].entries.length; j++){
+                if(data.lists[i].entries[j].checked == true){
+                    checkedEntries ++;
+                }
+            }
+        }
+    }
+    return "        " + String(checkedEntries) + "/" + String(entireEntries);
+}
+
+/**
+ * Delete todoentry from dom
+ * @param entryID
+ * @param listID
+ */
+function delEntryFromDom(entryID, listID){
+    $("#" + entryID + ".todo-entry").addClass("animated bounceOut");
+    window.setTimeout( function(){
+        $("#" + entryID + ".todo-entry").remove();
+    }, 500);
+
+    for(i = 0; i < data.lists.length; i++){
+        if(data.lists[i].id == listID){
+            if(data.lists[i].entries.length == 0){
+                $("#" + listID + " .empty").css("display", "block");
+            }
+        }
+    }
+}
+
+/**
+ * Add
+ * @param name the name of the entry / content
+ * @param listID id of the list the entry is in
+ * @returns the id of the new created entry
+ */
+function addEntryToStore(name, listID){
+    entryID = data.count;
+    data.count += 1;
+    for(i = 0; i < data.lists.length; i++) {
+        if (data.lists[i].id == listID) {
+            data.lists[i].entries.push({
+                id: entryID,
+                name: name,
+                checked: false
+            });
+            localStorage.setItem('data', JSON.stringify(data));
+        }
+    }
+    return entryID;
+}
+
+/**
+ * Delete an entry from the store
+ * @param entryID the id of the entry
+ */
+function delEntryFromStore(entryID){
     for(i = 0; i < data.lists.length; i++){
         for(j = 0; j < data.lists[i].entries.length; j++){
-            console.log(entryId);
-            if(data.lists[i].entries[j].id == entryId){
-
+            if(data.lists[i].entries[j].id == entryID){
                 data.lists[i].entries.splice(j, 1);
-                $("#" + entryId + ".todo-entry").addClass("animated bounceOut");
-                window.setTimeout( function(){
-                    $("#" + entryId + ".todo-entry").remove();
-                }, 500);
-
-                if(data.lists[i].entries.length == 0){
-                    $("#" + listId + " .empty").css("display", "block");
-                }
                 break;
             }
         }
@@ -94,99 +247,14 @@ function delListItem(event, entryId, listId){
 }
 
 /**
- * Add a new todolist item
- * @param event the event which is fired when pressing the add button
- */
-function addTodolistItem(event){
-    for(i = 0; i < data.lists.length; i++){
-        if(data.lists[i].id == event.target.id){
-            content = $("#" + event.target.id + " input.todo-entry-input").val();
-            $("#" + event.target.id + " input.todo-entry-input").val("");
-            $("#" + event.target.id + " .empty").css("display", "none");
-            $("#" + event.target.id + " .progressBar").append("<div class=\"progress\">\n" +
-                "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"></div>" +
-                "</div>");
-            entryID = data.count;
-            data.count += 1;
-            data.lists[i].entries.push({
-                id : entryID,
-                name : content,
-                checked : false
-            });
-            localStorage.setItem('data', JSON.stringify(data));
-
-            $('#' + data.lists[i].id + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox'></div><div id='content' class='col-md-8'>" + content + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
-
-            delListItemEvent(entryID, i);
-        }
-    }
-}
-
-function delListItemEvent(entryId, listId){
-    //Remove button functionality
-    $('#' + entryId + " .delEntry").attr("id", entryId);
-    $('#' + entryId + " .delEntry").addClass(listId);
-    $('#' + entryId + " .delEntry").bind("click",function(){
-
-        delListItem(event, entryId, listId);
-    });
-}
-
-/**
- * Del a certain todo list
- * @param listId the list to delete
- */
-function delTodoList(event){
-    for(i = 0; i < data.lists.length; i++){
-        if(data.lists[i].id == event.target.id){
-            data.lists.splice(i, 1);
-            $(".todo-list#" + event.target.id).addClass("animated bounceOut");
-            window.setTimeout( function(){
-                $(".todo-list#" + event.target.id).remove();
-            }, 500);
-        }
-        localStorage.setItem('data', JSON.stringify(data));
-    }
-    if(data.lists.length == 0){
-        $('.info.welcome').css("display", "block");
-    }
-}
-
-/**
  * Restore the data which is saved in browser storage
  * --> Lists and list entries
  */
 function restoreData(){
-    for(i = 0; i < data.lists.length; i++){
-
-        $('.info.welcome').css("display", "none");
-
-        ID = data.lists[i].id;
-
-        //Add list template
-        $('#gridView').append("<div class=\"text-center col-12 col-md-4 todo-list animated bounceIn\" id=\"" + ID + "\">" + card);
-        $('#' + ID + " .card-header").text(data.lists[i].name);
-
-        //Add button functionality
-        $('#' + ID + " .add").attr("id", ID);
-        $('#' + ID + " .add").bind("click",function(){
-            addTodolistItem(event)
-        });
-
-        $('#' + ID + " .del.todo-list").attr("id", ID);
-        $('#' + ID + ' .del.todo-list').bind("click", function(){
-            delTodoList(event);
-        });
-
-        for(j = 0; j < data.lists[i].entries.length; j++){
-                content = data.lists[i].entries[j].name;
-                $("#" + i + " .empty").css("display", "none");
-                entryID = data.lists[i].entries[j].id;
-
-                $('#' + data.lists[i].id + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox'></div><div id='content' class='col-md-8'>" + content + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
-
-                delListItemEvent(entryID, i);
-
+    for(var i = 0; i < data.lists.length; i++){
+        addTodoListToDom(data.lists[i].name, data.lists[i].id);
+        for(var j = 0; j < data.lists[i].entries.length; j++){
+                addEntryToDom(data.lists[i].entries[j].name, data.lists[i].entries[j].id, data.lists[i].id);
         }
     }
 }

@@ -79,3 +79,11 @@ header{
 .btn i.fa-check.box {
     opacity: 1;
 }
+
+.del.todo-list{
+    float: right;
+}
+
+.titleList{
+    line-height: 2;
+}
