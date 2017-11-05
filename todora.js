@@ -1,4 +1,5 @@
 var data = null;
+//Card template for todolist
 var card = "            <div class=\"list text-white bg-primary mb-3\">\n" +
     "                <div class=\"titleList card-header \"><button class='del todo-list btn btn-danger'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></button></div>\n" +
     "                <div class=\"card-body\">\n" +
@@ -42,6 +43,11 @@ $(document).ready(function() {
     });
 });
 
+/**
+ * Add a new todolist to the dom
+ * @param name the name of the list
+ * @param ID the id which is used as well in the data object
+ */
 function addTodoListToDom(name, ID){
     $('.info.welcome').css("display", "none");
 
@@ -132,7 +138,6 @@ function addEntryToDom(name, entryID, listID){
         }
     }
 
-
     if($('#' + listID + ' .progress').length == 0){
         $("#" + listID + " .progressBar").append("<div class=\"progress\">\n" +
             "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div id='amountOfChecked'></div></div>" +
@@ -154,10 +159,20 @@ function addEntryToDom(name, entryID, listID){
     });
 }
 
+/**
+ * Set the progressbar in dom to progress progress
+ * @param listID 
+ * @param progress
+ */
 function setProgressbarValue(listID, progress){
     $('#' + listID + ' .progress-bar').css("width", eval(progress)*100 + "%");
 }
 
+/**
+ * Set an entry in data as checked / unchecked in case the user changed a value
+ * @param checked true if checkbox was checked
+ * @param entryID the entry which was checked
+ */
 function setEntryCheck(checked, entryID) {
     for (i = 0; i < data.lists.length; i++) {
         for (j = 0; j < data.lists[i].entries.length; j++) {
