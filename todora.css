@@ -65,7 +65,7 @@ header{
 }
 
 #checkbox-div{
-    width: 10%;
+    width: 6%;
     display: inline-block;
 }
 
@@ -90,4 +90,35 @@ header{
 
 #amountOfChecked{
     white-space:pre;
+}
+
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+#checkbox-div {
+    background: rgba(50, 117, 221, 0);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#checkbox-div label {
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+/*Uncked*/
+#checkbox-div input[type=checkbox] + label {
+    background: #ca2d00;
+}
+
+/*Checked*/
+#checkbox-div input[type=checkbox]:checked + label {
+    background: #26ca28;
 }

@@ -115,7 +115,7 @@ function delTodoListFromStore(id){
  */
 function addEntryToDom(name, entryID, listID){
     $("#" + listID + " .empty").css("display", "none");
-    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"'></div><div id='content' class='col-md-8'>" + name + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
+    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><div id='content' class='col-md-8'>" + name + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
     //Remove button functionality
     $('#' + entryID + " .delEntry").attr("id", entryID);
     $('#' + entryID + " .delEntry").addClass(listID);
@@ -127,7 +127,7 @@ function addEntryToDom(name, entryID, listID){
     for(var i = 0; i < data.lists.length; i++){
         for(var j = 0; j < data.lists[i].entries.length; j++){
             if(data.lists[i].entries[j].id == entryID){
-                $('#' + entryID + ' :checkbox').prop('checked', data.lists[i].entries[j].checked);
+                $('#' + entryID + '-check').prop('checked', data.lists[i].entries[j].checked);
             }
         }
     }
@@ -141,10 +141,12 @@ function addEntryToDom(name, entryID, listID){
         $("#" + listID + " #amountOfChecked").text("        " + progress);
         setProgressbarValue(listID, progress);
     } else{
-
+        var progress = getProgress(listID);
+        $("#" + listID + " #amountOfChecked").text("        " + progress);
+        setProgressbarValue(listID, progress);
     }
 
-    $('input#' + entryID + '.' + listID).change(function(){
+    $('input#' + entryID + '-check.' + listID).change(function(){
        setEntryCheck(this.checked, entryID);
         var progress = getProgress(listID);
         $("#" + listID + " #amountOfChecked").text(progress);
@@ -198,7 +200,9 @@ function delEntryFromDom(entryID, listID){
     window.setTimeout( function(){
         $("#" + entryID + ".todo-entry").remove();
     }, 500);
-
+    var progress = getProgress(listID);
+    $("#" + listID + " #amountOfChecked").text("        " + progress);
+    setProgressbarValue(listID, progress);
     for(i = 0; i < data.lists.length; i++){
         if(data.lists[i].id == listID){
             if(data.lists[i].entries.length == 0){
