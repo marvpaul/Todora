@@ -1,7 +1,7 @@
 var data = null;
 //Card template for todolist
 var card = "            <div class=\"list text-white bg-primary mb-3\">\n" +
-    "                <div class=\"titleList card-header \"><button class='del todo-list btn btn-danger'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></button></div>\n" +
+    "                <div class=\"titleList card-header \"><input class='list-name input-field'><button class='del todo-list btn btn-danger'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></button></input>\n" +
     "                <div class=\"card-body\">\n" +
     "                    <br>" +
     "                        <div class='progressBar'></div>" +
@@ -53,7 +53,7 @@ function addTodoListToDom(name, ID){
 
     //Add list template
     $('#gridView').append("<div class=\"text-center col-12 col-md-4 todo-list animated bounceIn\" id=\"" + ID + "\">" + card);
-    $('#' + ID + " .card-header").prepend(name);
+    $('#' + ID + " .card-header .list-name").val(name);
 
     //Add button functionality
     $('#' + ID + " .add").attr("id", ID);
@@ -69,6 +69,31 @@ function addTodoListToDom(name, ID){
         delTodoListFromStore(ID);
         delTodoListFromDom(ID);
     })
+
+    $('#' + ID + " .card-header input.list-name").bind('change', function(){
+        changeListName($('#' + ID + " .card-header .list-name").val(), ID);
+    })
+
+}
+
+function changeListName(name, ID){
+    for(var i = 0; i < data.lists.length; i++){
+        if(data.lists[i].id == ID){
+            data.lists[i].name = name;
+        }
+    }
+    localStorage.setItem('data', JSON.stringify(data));
+}
+
+function changeEntryName(name, ID){
+    for(i = 0; i < data.lists.length; i++){
+        for(j = 0; j < data.lists[i].entries.length; j++){
+            if(data.lists[i].entries[j].id == ID){
+                data.lists[i].entries[j].name = name;
+            }
+        }
+    }
+    localStorage.setItem('data', JSON.stringify(data));
 }
 
 /**
@@ -121,7 +146,7 @@ function delTodoListFromStore(id){
  */
 function addEntryToDom(name, entryID, listID){
     $("#" + listID + " .empty").css("display", "none");
-    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-md-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><div id='content' class='col-md-8'>" + name + " </div><div class='delEntry badge badge-pill badge-danger col-md-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
+    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><input id='content' class='col-8 input-field' value='" + name + "'><div class='delEntry badge badge-pill badge-danger col-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
     //Remove button functionality
     $('#' + entryID + " .delEntry").attr("id", entryID);
     $('#' + entryID + " .delEntry").addClass(listID);
@@ -157,11 +182,15 @@ function addEntryToDom(name, entryID, listID){
         $("#" + listID + " #amountOfChecked").text(progress);
         setProgressbarValue(listID, progress)
     });
+
+    $('#' + listID + ' .card-body .input-field').bind('change', function(){
+        changeEntryName($('#' + listID + ' .card-body .input-field').val(), entryID);
+    });
 }
 
 /**
  * Set the progressbar in dom to progress progress
- * @param listID 
+ * @param listID
  * @param progress
  */
 function setProgressbarValue(listID, progress){
@@ -218,12 +247,18 @@ function delEntryFromDom(entryID, listID){
     var progress = getProgress(listID);
     $("#" + listID + " #amountOfChecked").text("        " + progress);
     setProgressbarValue(listID, progress);
+    var numEntries = 0;
     for(i = 0; i < data.lists.length; i++){
         if(data.lists[i].id == listID){
             if(data.lists[i].entries.length == 0){
                 $("#" + listID + " .empty").css("display", "block");
             }
         }
+        numEntries += data.lists[i].entries.length;
+    }
+
+    if(numEntries == 0){
+        $("#" + listID + " .progressBar").remove();
     }
 }
 
@@ -277,3 +312,9 @@ function restoreData(){
         }
     }
 }
+
+/*TODO: Add a feature to rename list / title
+TODO: Add some css attributes
+TODO: Cross done entries
+TODO: Welcome screen
+ */

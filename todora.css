@@ -59,8 +59,8 @@ header{
 
 
 .todo-entry{
+    height: 8vh;
     width: 100%;
-    line-height: 3;
     display: inline-block !important;
 }
 
@@ -71,6 +71,7 @@ header{
 
 #content{
     display: inline-block;
+    width: 70%;
 }
 
 .btn i.fa-check.box {
@@ -102,6 +103,8 @@ input[type=checkbox] {
     height: 30px;
     border-radius: 100%;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    padding-top: 5%;
+    top: 10px;
 }
 
 #checkbox-div label {
@@ -121,4 +124,9 @@ input[type=checkbox] {
 /*Checked*/
 #checkbox-div input[type=checkbox]:checked + label {
     background: #26ca28;
+}
+
+.input-field{
+    background-color: inherit;
+    border: none;
 }
