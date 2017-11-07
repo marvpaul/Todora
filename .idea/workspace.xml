@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="155e02e7-312f-4269-a323-d3e3d25460a0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/font-awesome.min.css" afterPath="$PROJECT_DIR$/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.css" afterPath="$PROJECT_DIR$/todora.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.js" afterPath="$PROJECT_DIR$/todora.js" />
-    </list>
+    <list default="true" id="155e02e7-312f-4269-a323-d3e3d25460a0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -324,12 +318,12 @@
       <workItem from="1509709059424" duration="7170000" />
       <workItem from="1509884910963" duration="17000" />
       <workItem from="1509889449821" duration="2831000" />
-      <workItem from="1509985605965" duration="7799000" />
+      <workItem from="1509985605965" duration="7958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43788000" />
+    <option name="totallyTimeSpent" value="43947000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
