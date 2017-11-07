@@ -49,7 +49,9 @@ $(document).ready(function() {
  * @param ID the id which is used as well in the data object
  */
 function addTodoListToDom(name, ID){
-    $('.info.welcome').css("display", "none");
+    $('.welcome').css("visibility", "hidden");
+    $('.welcome').css("opacity", "0");
+    $('.welcome').css("height", "0");
 
     //Add list template
     $('#gridView').append("<div class=\"text-center col-12 col-md-4 todo-list animated bounceIn\" id=\"" + ID + "\">" + card);
@@ -106,7 +108,9 @@ function delTodoListFromDom(id){
         $(".todo-list#" + id).remove();
     }, 500);
     if(data.lists.length == 0){
-        $('.info.welcome').css("display", "block");
+        $('.welcome').css("visibility", "visible");
+        $('.welcome').css("opacity", "1");
+        $('.welcome').css("height", "100%");
     }
 }
 
@@ -176,8 +180,17 @@ function addEntryToDom(name, entryID, listID){
         setProgressbarValue(listID, progress);
     }
 
+    if($('input#' + entryID + '-check.' + listID).is(':checked')){
+        $('#' + entryID + ".todo-entry input").css("text-decoration", "line-through");
+    }
     $('input#' + entryID + '-check.' + listID).change(function(){
        setEntryCheck(this.checked, entryID);
+       if(this.checked){
+           $('#' + entryID + ".todo-entry input").css("text-decoration", "line-through");
+       } else{
+           $('#' + entryID + ".todo-entry input").css("text-decoration", "none");
+       }
+
         var progress = getProgress(listID);
         $("#" + listID + " #amountOfChecked").text(progress);
         setProgressbarValue(listID, progress)
@@ -311,10 +324,8 @@ function restoreData(){
                 addEntryToDom(data.lists[i].entries[j].name, data.lists[i].entries[j].id, data.lists[i].id);
         }
     }
+    if(data.lists.length == 0){
+        $('.welcome').css("visibility", "visible");
+        $('.welcome').css("opacity", "1");
+    }
 }
-
-/*TODO: Add a feature to rename list / title
-TODO: Add some css attributes
-TODO: Cross done entries
-TODO: Welcome screen
- */
