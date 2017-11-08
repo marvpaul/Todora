@@ -1,6 +1,6 @@
 var data = null;
 //Card template for todolist
-var card = "            <div class=\"list text-white bg-primary mb-3\">\n" +
+var card = "            <div class=\"list text-white card card-inverse card-primary bg-primary +\">\n" +
     "                <div class=\"titleList card-header \"><input class='list-name input-field'><button class='del todo-list btn btn-danger'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></button></input>\n" +
     "                <div class=\"card-body\">\n" +
     "                    <br>" +
@@ -30,6 +30,8 @@ $(document).ready(function() {
         $("#inputNewList").val("");
         ID = addTodoListToStore(name);
         addTodoListToDom(name, ID);
+        initEntry = addEntryToStore("Beispiel", ID);
+        addEntryToDom("Beispiel", initEntry, ID);
     });
 
     $("input#inputNewList").keyup(function(e){
@@ -39,6 +41,9 @@ $(document).ready(function() {
             $("#inputNewList").val("");
             ID = addTodoListToStore(name);
             addTodoListToDom(name, ID);
+            console.log(data.lists);
+            initEntry = addEntryToStore("Beispiel");
+            addEntryToDom("Beispiel", initEntry, ID);
         }
     });
 });
@@ -54,7 +59,7 @@ function addTodoListToDom(name, ID){
     $('.welcome').css("height", "0");
 
     //Add list template
-    $('#gridView').append("<div class=\"text-center col-12 col-md-4 todo-list animated bounceIn\" id=\"" + ID + "\">" + card);
+    $('#gridView').append("<div class=\"text-center col-12 col-lg-4  todo-list\" id=\"" + ID + "\">" + card);
     $('#' + ID + " .card-header .list-name").val(name);
 
     //Add button functionality
@@ -103,7 +108,7 @@ function changeEntryName(name, ID){
  * @param listId the list to delete
  */
 function delTodoListFromDom(id){
-    $(".todo-list#" + id).addClass("animated bounceOut");
+    //$(".todo-list#" + id).addClass("animated bounceOut");
     window.setTimeout(function () {
         $(".todo-list#" + id).remove();
     }, 500);
@@ -150,7 +155,7 @@ function delTodoListFromStore(id){
  */
 function addEntryToDom(name, entryID, listID){
     $("#" + listID + " .empty").css("display", "none");
-    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div id='checkbox-div' class='col-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><input id='content' class='col-8 input-field' value='" + name + "'><div class='delEntry badge badge-pill badge-danger col-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
+    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div class='checkbox-div' class='col-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><input class='content col-8 input-field' value='" + name + "'><div class='delEntry badge badge-pill badge-danger col-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
     //Remove button functionality
     $('#' + entryID + " .delEntry").attr("id", entryID);
     $('#' + entryID + " .delEntry").addClass(listID);
@@ -167,16 +172,19 @@ function addEntryToDom(name, entryID, listID){
         }
     }
 
-    if($('#' + listID + ' .progress').length == 0){
-        $("#" + listID + " .progressBar").append("<div class=\"progress\">\n" +
-            "  <div class=\"progress-bar bg-success\" role=\"progressbar\" style=\"width: 25%\" aria-valuenow=\"25\" aria-valuemin=\"0\" aria-valuemax=\"100\"><div id='amountOfChecked'></div></div>" +
-            "</div>");
+    if($('#' + listID + ' .progBar').length == 0){
+        $("#" + listID + " .progressBar").append('<div class="progBar">\n' +
+            '                                <div class="progFilled">\n' +
+            '                                    <div class=\'amountOfChecked\'>0/1</div>\n' +
+            '                                </div>\n' +
+            '                            </div>');
+        $('#' + listID +  ' .progFilled').attr('id', listID);
         var progress = getProgress(listID);
-        $("#" + listID + " #amountOfChecked").text("        " + progress);
+        $("#" + listID + " .amountOfChecked").text("        " + progress);
         setProgressbarValue(listID, progress);
     } else{
         var progress = getProgress(listID);
-        $("#" + listID + " #amountOfChecked").text("        " + progress);
+        $("#" + listID + " .amountOfChecked").text("        " + progress);
         setProgressbarValue(listID, progress);
     }
 
@@ -192,7 +200,7 @@ function addEntryToDom(name, entryID, listID){
        }
 
         var progress = getProgress(listID);
-        $("#" + listID + " #amountOfChecked").text(progress);
+        $("#" + listID + " .amountOfChecked").text(progress);
         setProgressbarValue(listID, progress)
     });
 
@@ -207,7 +215,7 @@ function addEntryToDom(name, entryID, listID){
  * @param progress
  */
 function setProgressbarValue(listID, progress){
-    $('#' + listID + ' .progress-bar').css("width", eval(progress)*100 + "%");
+    $('#' + listID + ' .progFilled#' + listID).css("width", eval(progress)*100 + "%");
 }
 
 /**
@@ -258,7 +266,7 @@ function delEntryFromDom(entryID, listID){
         $("#" + entryID + ".todo-entry").remove();
     }, 500);
     var progress = getProgress(listID);
-    $("#" + listID + " #amountOfChecked").text("        " + progress);
+    $("#" + listID + " .amountOfChecked").text("        " + progress);
     setProgressbarValue(listID, progress);
     var numEntries = 0;
     for(i = 0; i < data.lists.length; i++){
@@ -291,9 +299,9 @@ function addEntryToStore(name, listID){
                 name: name,
                 checked: false
             });
-            localStorage.setItem('data', JSON.stringify(data));
         }
     }
+    localStorage.setItem('data', JSON.stringify(data));
     return entryID;
 }
 
@@ -324,8 +332,9 @@ function restoreData(){
                 addEntryToDom(data.lists[i].entries[j].name, data.lists[i].entries[j].id, data.lists[i].id);
         }
     }
-    if(data.lists.length == 0){
-        $('.welcome').css("visibility", "visible");
-        $('.welcome').css("opacity", "1");
+    if(data.lists.length != 0){
+        $('.welcome').css("visibility", "hidden");
+        $('.welcome').css("opacity", "0");
     }
 }
+//TODO: Wenn entry gelöscht wird und wieder erstellt wird, dann wird die ProgressBar nicht wieder geladen

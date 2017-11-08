@@ -5,10 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todora Startseite</title>
     <link rel="stylesheet" type="text/css" href="../todora.css">
+    <script src="../jquery.js"></script>
+    <script src="../tether.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="../animate.css">
 </head>
 <body>
-    <h1>Wilkommen bei Todora</h1>
-    <div class="info">Sie haben noch keine TODOS</div>
-    <button id="createTODO">Create TODO</button>
+    <div class="container">
+        <header>
+            <div id="background">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <h1><span class="badge badge-default">Wilkommen bei Todora</span></h1>
+            <div class="info welcome">
+                <div class="alert alert-info" role="alert">
+                    <h1>Sie haben noch keine TODOS. Jetzt erstellen!</h1>
+                </div>
+            </div>
+            <input id="inputNewList" placeholder="Name"><button id="createTODO" class="btn btn-primary">TODO erstellen <i class="fa fa-check" aria-hidden="true"></i></button>
+
+        </header>
+        <br>
+        <div id="gridView" class="row"></div>
+    </div>
 </body>
 </html>

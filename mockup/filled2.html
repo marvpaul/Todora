@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todora Startseite</title>
+    <link rel="stylesheet" type="text/css" href="../todora.css">
+    <script src="../jquery.js"></script>
+    <script src="../tether.min.js"></script>
+    <script src="../bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="../animate.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="background">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+            <h1><span class="badge badge-default">Wilkommen bei Todora</span></h1>
+            <input id="inputNewList" placeholder="Name"><button id="createTODO" class="btn btn-primary">TODO erstellen <i class="fa fa-check" aria-hidden="true"></i></button>
+        </header>
+        <br>
+        <div id="gridView" class="row">
+            <div class="text-center col-12 col-md-4 todo-list animated bounceIn">
+                <div class="list text-white bg-primary card card-inverse card-primary ">
+                    <div class="titleList card-header">
+                        <input class='list-name input-field'>
+                        <button class='del todo-list btn btn-danger'>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="card-body">
+                            <br>
+                            <div class='progressBar'></div>
+                            <div class='empty'>
+                                Leere Liste
+                            </div>
+                            <br><input class='todo-entry-input'><button class='add btn btn-success'>Add entry</button>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-12 col-md-4 todo-list animated bounceIn">
+                <div class="list text-white bg-primary card card-inverse card-primary ">
+                    <div class="titleList card-header">
+                        <input class='list-name input-field'>
+                        <button class='del todo-list btn btn-danger'>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="card-body">
+                            <div class='todo-entry card text-white bg-info animated bounceIn'>
+                                <div class='checkbox-div'>
+                                    <input type='checkbox' id="box1"><label for='box1'></label>
+                                </div>
+                                <input class='input-field content' value="Sth">
+                                <div class='delEntry badge badge-pill badge-danger'>
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="progBar">
+                                <div class="progFilled bar1">
+                                    <div class='amountOfChecked'>0/1</div>
+                                </div>
+                            </div>
+                            <br><input class='todo-entry-input'><button class='add btn btn-success'>Add entry</button>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center col-12 col-md-4 todo-list animated bounceIn">
+                <div class="list text-white bg-primary card card-inverse card-primary ">
+                    <div class="titleList card-header">
+                        <input class='list-name input-field'>
+                        <button class='del todo-list btn btn-danger'>
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="card-body">
+                            <div class='todo-entry card text-white bg-info animated bounceIn'>
+                                <div class='checkbox-div'>
+                                    <input type='checkbox' id="box3" checked><label for='box3'></label>
+                                </div>
+                                <input class='input-field content' value="Sth">
+                                <div class='delEntry badge badge-pill badge-danger'>
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class='todo-entry card text-white bg-info animated bounceIn'>
+                                <div class='checkbox-div'>
+                                    <input type='checkbox' id="box2"><label for='box2'></label>
+                                </div>
+                                <input class='input-field content' value="Sth">
+                                <div class='delEntry badge badge-pill badge-danger'>
+                                    <i class="fa fa-times" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <br>
+                            <div class='progressBar'>
+                                <div class="progBar">
+                                    <div class="progFilled bar2">
+                                        <div class='amountOfChecked'>1/2</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br><input class='todo-entry-input'><button class='add btn btn-success'>Add entry</button>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
