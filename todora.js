@@ -33,19 +33,6 @@ $(document).ready(function() {
         initEntry = addEntryToStore("Beispiel", ID);
         addEntryToDom("Beispiel", initEntry, ID);
     });
-
-    $("input#inputNewList").keyup(function(e){
-        if(e.keyCode == 13)
-        {
-            var name = $("#inputNewList").val();
-            $("#inputNewList").val("");
-            ID = addTodoListToStore(name);
-            addTodoListToDom(name, ID);
-            console.log(data.lists);
-            initEntry = addEntryToStore("Beispiel");
-            addEntryToDom("Beispiel", initEntry, ID);
-        }
-    });
 });
 
 /**
@@ -54,25 +41,26 @@ $(document).ready(function() {
  * @param ID the id which is used as well in the data object
  */
 function addTodoListToDom(name, ID){
-    $('.welcome').css("visibility", "hidden");
-    $('.welcome').css("opacity", "0");
-    $('.welcome').css("height", "0");
+    var welcomeDiv = $('.welcome');
+    welcomeDiv.css("visibility", "hidden");
+    welcomeDiv.css("opacity", "0");
+    welcomeDiv.css("height", "0");
 
     //Add list template
     $('#gridView').append("<div class=\"text-center col-12 col-lg-4  todo-list\" id=\"" + ID + "\">" + card);
     $('#' + ID + " .card-header .list-name").val(name);
 
     //Add button functionality
-    $('#' + ID + " .add").attr("id", ID);
-    $('#' + ID + " .add").bind("click",function(){
+    var addEntryButton = $('#' + ID + " .add");
+    addEntryButton.bind("click",function(){
         name = $("#" + ID + " input.todo-entry-input").val();
         $("#" + ID+ " input.todo-entry-input").val("");
         entryID = addEntryToStore(name, ID);
         addEntryToDom(name, entryID, ID);
     });
 
-    $('#' + ID + " .del.todo-list").attr("id", ID);
-    $('#' + ID + ' .del.todo-list').bind("click", function(){
+    var delListButton = $('#' + ID + " .del.todo-list");
+    delListButton.bind("click", function(){
         delTodoListFromStore(ID);
         delTodoListFromDom(ID);
     })
@@ -109,20 +97,19 @@ function changeEntryName(name, ID){
  */
 function delTodoListFromDom(id){
     //$(".todo-list#" + id).addClass("animated bounceOut");
-    window.setTimeout(function () {
-        $(".todo-list#" + id).remove();
-    }, 500);
+    $(".todo-list#" + id).remove();
     if(data.lists.length == 0){
-        $('.welcome').css("visibility", "visible");
-        $('.welcome').css("opacity", "1");
-        $('.welcome').css("height", "100%");
+        var welcomeDiv = $('.welcome');
+        welcomeDiv.css("visibility", "visible");
+        welcomeDiv.css("opacity", "1");
+        welcomeDiv.css("height", "100%");
     }
 }
 
 /**
  * Add a list to the store
  * @param name
- * @returns id of the newly created list
+ * @returns Number of the newly created list
  */
 function addTodoListToStore(name){
     var ID = data.lists.length;
@@ -155,11 +142,10 @@ function delTodoListFromStore(id){
  */
 function addEntryToDom(name, entryID, listID){
     $("#" + listID + " .empty").css("display", "none");
-    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info animated bounceIn'><div class='checkbox-div' class='col-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><input class='content col-8 input-field' value='" + name + "'><div class='delEntry badge badge-pill badge-danger col-2' " + entryID + "><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
+    $('#' + listID + " .card-body").prepend("<div id='" + entryID + "' class='todo-entry card text-white bg-info'><div class='checkbox-div' class='col-2'><input type='checkbox' class='" + listID +"' id='" + entryID +"-check'><label for='" + entryID + "-check'></label></div><input class='content col-8 input-field' value='" + name + "'><div class='delEntry badge badge-pill badge-danger col-2 " + entryID + "'><i class=\"fa fa-times\" aria-hidden=\"true\"></i></div></div>");
     //Remove button functionality
-    $('#' + entryID + " .delEntry").attr("id", entryID);
-    $('#' + entryID + " .delEntry").addClass(listID);
-    $('#' + entryID + " .delEntry").bind("click",function(){
+    var delEntryButton = $('#' + entryID + " .delEntry");
+    delEntryButton.bind("click",function(){
         delEntryFromStore(entryID);
         delEntryFromDom(entryID, listID);
     });
@@ -172,31 +158,32 @@ function addEntryToDom(name, entryID, listID){
         }
     }
 
-    if($('#' + listID + ' .progBar').length == 0){
+    if($('#' + listID + ' .progBar').length === 0){
         $("#" + listID + " .progressBar").append('<div class="progBar">\n' +
-            '                                <div class="progFilled">\n' +
+            '                                <div class="progFilled ' + listID + '">\n' +
             '                                    <div class=\'amountOfChecked\'>0/1</div>\n' +
             '                                </div>\n' +
             '                            </div>');
-        $('#' + listID +  ' .progFilled').attr('id', listID);
         var progress = getProgress(listID);
-        $("#" + listID + " .amountOfChecked").text("        " + progress);
+        $("#" + listID + " .amountOfChecked").text(progress);
         setProgressbarValue(listID, progress);
     } else{
         var progress = getProgress(listID);
-        $("#" + listID + " .amountOfChecked").text("        " + progress);
+        $("#" + listID + " .amountOfChecked").text(progress);
         setProgressbarValue(listID, progress);
     }
 
-    if($('input#' + entryID + '-check.' + listID).is(':checked')){
+    var listEntryCheckbox = $('input#' + entryID + '-check.' + listID);
+    if(listEntryCheckbox.is(':checked')){
         $('#' + entryID + ".todo-entry input").css("text-decoration", "line-through");
     }
-    $('input#' + entryID + '-check.' + listID).change(function(){
+    listEntryCheckbox.change(function(){
        setEntryCheck(this.checked, entryID);
+       var todoEntry = $('#' + entryID + ".todo-entry input");
        if(this.checked){
-           $('#' + entryID + ".todo-entry input").css("text-decoration", "line-through");
+           todoEntry.css("text-decoration", "line-through");
        } else{
-           $('#' + entryID + ".todo-entry input").css("text-decoration", "none");
+           todoEntry.css("text-decoration", "none");
        }
 
         var progress = getProgress(listID);
@@ -215,7 +202,7 @@ function addEntryToDom(name, entryID, listID){
  * @param progress
  */
 function setProgressbarValue(listID, progress){
-    $('#' + listID + ' .progFilled#' + listID).css("width", eval(progress)*100 + "%");
+    $('#' + listID + ' .progFilled.' + listID).css("width", eval(progress)*100 + "%");
 }
 
 /**
@@ -237,7 +224,7 @@ function setEntryCheck(checked, entryID) {
 /**
  * Get the progress for a list
  * @param listID id of the list
- * @returns Progress as string 2/2
+ * @returns string as string 2/2
  */
 function getProgress(listID){
     entireEntries = 0;
@@ -246,13 +233,13 @@ function getProgress(listID){
         if(data.lists[i].id == listID){
             entireEntries = data.lists[i].entries.length;
             for(j = 0; j < data.lists[i].entries.length; j++){
-                if(data.lists[i].entries[j].checked == true){
+                if(data.lists[i].entries[j].checked){
                     checkedEntries ++;
                 }
             }
         }
     }
-    return "        " + String(checkedEntries) + "/" + String(entireEntries);
+    return String(checkedEntries) + "/" + String(entireEntries);
 }
 
 /**
@@ -261,25 +248,17 @@ function getProgress(listID){
  * @param listID
  */
 function delEntryFromDom(entryID, listID){
-    $("#" + entryID + ".todo-entry").addClass("animated bounceOut");
-    window.setTimeout( function(){
-        $("#" + entryID + ".todo-entry").remove();
-    }, 500);
+    $("#" + entryID + ".todo-entry").remove();
     var progress = getProgress(listID);
-    $("#" + listID + " .amountOfChecked").text("        " + progress);
+    $("#" + listID + " .amountOfChecked").text(progress);
     setProgressbarValue(listID, progress);
-    var numEntries = 0;
     for(i = 0; i < data.lists.length; i++){
         if(data.lists[i].id == listID){
             if(data.lists[i].entries.length == 0){
                 $("#" + listID + " .empty").css("display", "block");
+                $("#" + listID + " .progBar").remove();
             }
         }
-        numEntries += data.lists[i].entries.length;
-    }
-
-    if(numEntries == 0){
-        $("#" + listID + " .progressBar").remove();
     }
 }
 
@@ -333,8 +312,8 @@ function restoreData(){
         }
     }
     if(data.lists.length != 0){
-        $('.welcome').css("visibility", "hidden");
-        $('.welcome').css("opacity", "0");
+        var welcomeDiv = $('.welcome');
+        welcomeDiv.css("visibility", "hidden");
+        welcomeDiv.css("opacity", "0");
     }
 }
-//TODO: Wenn entry gelöscht wird und wieder erstellt wird, dann wird die ProgressBar nicht wieder geladen
