@@ -316,6 +316,10 @@ function restoreData(){
         welcomeDiv.css("visibility", "hidden");
         welcomeDiv.css("opacity", "0");
     }
+<<<<<<< HEAD
 }
 
 //TODO: flickering
+=======
+}
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74

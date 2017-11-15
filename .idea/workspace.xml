@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155e02e7-312f-4269-a323-d3e3d25460a0" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/FontAwesome.otf" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
@@ -870,6 +871,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.css" afterPath="$PROJECT_DIR$/todora.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.js" afterPath="$PROJECT_DIR$/todora.js" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.txt" afterPath="$PROJECT_DIR$/readme.txt" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -883,7 +887,11 @@
       <file leaf-file-name="filled.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup/filled.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="105">
+=======
+            <state relative-caret-position="75">
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
               <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
@@ -904,7 +912,11 @@
         <entry file="file://$PROJECT_DIR$/mockup/start.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
+<<<<<<< HEAD
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+=======
+              <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
               <folding />
             </state>
           </provider>
@@ -933,14 +945,23 @@
       <file leaf-file-name="todora.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todora.css">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="500">
               <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+=======
+            <state relative-caret-position="2400">
+              <caret line="160" column="13" lean-forward="false" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+=======
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="true">
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -953,7 +974,7 @@
       <file leaf-file-name="jquery.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="675">
               <caret line="3" column="22396" lean-forward="false" selection-start-line="3" selection-start-column="22396" selection-end-line="3" selection-end-column="22396" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -962,11 +983,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="todora.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="todora.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todora.js">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="693">
               <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+=======
+            <state relative-caret-position="251">
+              <caret line="162" column="68" lean-forward="false" selection-start-line="162" selection-start-column="68" selection-end-line="162" selection-end-column="68" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
               <folding />
             </state>
           </provider>
@@ -1005,8 +1031,11 @@
       <find>delEntry</find>
       <find>del todo</find>
       <find>progFilled</find>
+<<<<<<< HEAD
       <find>changeEntr</find>
       <find>input</find>
+=======
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
     </findStrings>
     <replaceStrings>
       <replace />
@@ -1025,13 +1054,22 @@
         <option value="$PROJECT_DIR$/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/popper.js" />
         <option value="$PROJECT_DIR$/popper.min.js.map.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/mockup/filled2.html" />
         <option value="$PROJECT_DIR$/mockup/filled.html" />
         <option value="$PROJECT_DIR$/mockup/start.html" />
         <option value="$PROJECT_DIR$/readme.txt" />
         <option value="$PROJECT_DIR$/todora.css" />
+=======
+        <option value="$PROJECT_DIR$/todora.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/mockup/filled2.html" />
+        <option value="$PROJECT_DIR$/mockup/filled.html" />
+        <option value="$PROJECT_DIR$/mockup/start.html" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
         <option value="$PROJECT_DIR$/todora.js" />
+        <option value="$PROJECT_DIR$/readme.txt" />
       </list>
     </option>
   </component>
@@ -1064,6 +1102,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1080,9 +1124,12 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
+=======
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1190,14 +1237,22 @@
       <workItem from="1509985605965" duration="8379000" />
       <workItem from="1510083520868" duration="3190000" />
       <workItem from="1510152715036" duration="6373000" />
+<<<<<<< HEAD
       <workItem from="1510569360370" duration="3734000" />
       <workItem from="1510738877359" duration="779000" />
       <workItem from="1510759320577" duration="2095000" />
+=======
+      <workItem from="1510569360370" duration="3471000" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="60539000" />
+=======
+    <option name="totallyTimeSpent" value="57402000" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -1214,7 +1269,6 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1225,6 +1279,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1312,6 +1367,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="117" column="146" lean-forward="false" selection-start-line="117" selection-start-column="140" selection-end-line="117" selection-end-column="146" />
+<<<<<<< HEAD
+=======
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
@@ -1464,7 +1530,18 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/animate.css" />
+=======
+    <entry file="file://$PROJECT_DIR$/animate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
     <entry file="file://$PROJECT_DIR$/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1477,6 +1554,16 @@
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
+<<<<<<< HEAD
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1485,6 +1572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/popper.js" />
     <entry file="file://$PROJECT_DIR$/popper.min.js.map" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/tether.min.js" />
     <entry file="file://$PROJECT_DIR$/mockup/filled2.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1495,6 +1583,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mockup/filled.html">
+=======
+    <entry file="file://$PROJECT_DIR$/tether.min.js">
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
@@ -1502,17 +1593,25 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$PROJECT_DIR$/mockup/start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/mockup/filled2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="45">
           <caret line="3" column="22396" lean-forward="false" selection-start-line="3" selection-start-column="22396" selection-end-line="3" selection-end-column="22396" />
           <folding>
@@ -1522,6 +1621,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.txt">
+=======
+        <state relative-caret-position="75">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json">
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
@@ -1531,32 +1639,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="105">
           <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+=======
+        <state relative-caret-position="2400">
+          <caret line="160" column="13" lean-forward="false" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/mockup/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
           <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="3" column="22396" lean-forward="false" selection-start-line="3" selection-start-column="22396" selection-end-line="3" selection-end-column="22396" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todora.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="693">
           <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+=======
+        <state relative-caret-position="251">
+          <caret line="162" column="68" lean-forward="false" selection-start-line="162" selection-start-column="68" selection-end-line="162" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
+>>>>>>> 2e107a7622eeec44a81c1980add78c0bdac08a74
           <folding />
         </state>
       </provider>
