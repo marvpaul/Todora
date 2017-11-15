@@ -30,7 +30,8 @@ header{
 
 
 .todo-entry{
-    height: 8vh;
+    /*height: 8vh;*/
+
     width: 100%;
     display: inline-block !important;
 }

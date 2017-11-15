@@ -2,15 +2,872 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="155e02e7-312f-4269-a323-d3e3d25460a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mockup/filled2.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tether.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/fonts/flexslider-icon.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/fonts/flexslider-icon.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/fonts/flexslider-icon.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/img/photoswipe-default-skin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/img/photoswipe-preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/CONTRIBUTING.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/js/pages/compare.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/js/pages/details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/js/pages/review.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/js/pages/start.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/less/flow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap-select/js/bootstrap-select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap-select/less/bootstrap-select.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap-select/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-bootstrap-validation/js/jqBootstrapValidation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-cookie/js/jquery.cookie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/fonts/flexslider-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/js/jquery.flexslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/base.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/flexslider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/font.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/resets.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-flexslider2/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-ui/js/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery-unveil/js/jquery.unveil.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/jquery/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxagbcheck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxajax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxarticlevariant.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxbasketchecks.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxcookienote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxcountrystateselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxequalizer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxfacebook.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxlistremovebutton.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxpayment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxtag.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/oxid-esales/js/oxusershipingaddressselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/img/photoswipe-default-skin.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/js/photoswipe-ui-default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/js/photoswipe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/less/photoswipe-default-skin.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/build/vendor/photoswipe/less/photoswipe.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/de/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/de/theme_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/en/lang.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/en/theme_options.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/aliases.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/copy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/jshint.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/less.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/uglify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/grunt/watch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/offline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/setup.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/theme.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/components/sth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/custom/ajax_econda_recommendations.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/custom/dir.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/newsletteroptin.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/0644a5f7c7ba7a24aa32de1108873621.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/07a00550864805167fe36871a088056d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/094ae7ec54c41d86342e6351bb3f3d7f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/0b5479410464afce8c581cf882d8ed2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/11032e833d4049cb384e56f6f2fd9dbf.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/1254a98c8c65c8113ef2ea2112617864.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/14c6967a2454846a79ee5f627893cba4.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/179f22002698b731f414b04a0e4e37df.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/1b5c4572e237fc5ae0fadebeeb3576b9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/26b5073bb5b445d2671fec6f179d6d9d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/2e8103d7404b8dd1a6076114d4b53a5e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/2fd248c23fa387e827b8337629587153.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/32a6f1834d1ea125177481a72c1008e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/35f80fdcb3517e74b9705fbdfffbe95f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/39824dacfb1e134d093794f078a1b2d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/3aaa9a93990b515b7a0102e408963bf6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/3f529f194b85b23211245a7c165eb782.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/40275a972b732f02e5def23df4d880de.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/402fcf35715cba173052ab1aa4acd26f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/408a03f17146e4a675c7629726f93615.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/44fc6da73307cf71ed650df63e5868b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/55b7f56ed800258d2cffc27db05761ea.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/57ebbf1767c8518d39cea4f61eb6bf4f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/5a2872d5771d19827368e57387220265.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/5f996423964e8a78f09f42ec31d5de62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/62d78bf1678b44d2325b036251ab404f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/64c0e6df2e567b39d36fcad2752d658c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/6776d996e9df55498adce8332418f718.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/68c524aaeeb72a4082c9f435499febeb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/6a32d682fb2cf4f02bcc272346e0cf20.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/6c9af57e9ec19ea4fa4ceb325557a9f3.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/6ee97bd6575b9e4b9510f9f0c5632206.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/715623facf9e0cc2325223f980d6904a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/73ba40c66925f76ee7266d4a0a5fd149.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/749652dbca298b70c53467680751c957.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/761b4d9aee88f24d896899228c89412e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/78b4f4d889de0117316ecdec62880ce1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/7b78376a96e01d521879125ed3b68bab.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/7f00a25c830a8b00c216a23613674b62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/80a3e07c52a9e739c498be6c3668ee4e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/8f1e8ceecae20fba96d47d9f091e0b2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/927294ecbe6d58f5788c856d50716770.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/9d4e1e81c346d8d62a3e7a13fa7c42e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/9d837ac943d4088d44d71752d6e49680.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/9d8c9e6f08808d5667eaa159b61c3e3f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/a1bdd32f7fc3617af85ac9745c6035b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/a390dfce0b08b982577c00ce1b4c3c3c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/a5ba6b86b8862f7d61a1cf9a7b4779cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/a6180a39d8d4aa1f0444659925fc4e0a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ac0184c9d7647ba02016ffa3d74d6816.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ad12e5769f58a1e0e19e878d28efc274.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/adbc386d8d1cd678fba6f6cb50e44a6e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/b5b5d8d34778b7d60a37497d7d1570e6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/b6ff0983052ece48c3af56bc8359f37d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/b8d77385f4627b4e8e196925a50fbf97.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ba896d682d491c0e6759df0c1875668f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/bec5be58eb802c1451abfcaa8091f2cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/c25339d66fffd959b4d6378ae6493032.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/c6020abde52fdaa9a46caae55a8597f9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/c8034a4e79c4ec298dc88891ee7982a8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ca932a969985f5ea09ed9fc0bb8dd1e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/cca402bd65c5846d57a2982a62cfccba.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/d79b9d9c8932f972782ab3fb25ee92fb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/d823d195000b151bb8f354a93352c3f1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/d8c9078ccc5e855f636e11bbffc0eee1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/d92dd63bdd107e7bb5b5b9e2609ba058.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/da81aeafd05b7c2ab1ec5df35b70e42d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/de76a91594964829ed63447a6129bcf8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ded455ab6a4b2b4110d2e4c121526313.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e27bd7e2b89abb9efda2d95554845eb7.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e34896b4801175353df9ef870ef96519.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e8d731079b1a832ed394959a899caa1f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e96bec982532470f17eff37006665401.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e9db0f4301cc61a0510f53161ac598fc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/e9f8f03c6ca39c6166a58faa73462959.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ea173f4f7ad3e2f16ebe768da288b374.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/f220d0d16e699505c63ba714c19cc05f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/fba17825d506a503b72440c3e39b40c6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/fbddc2d44cdef447150b667092e0bea6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order/ff10ecff37095a6ef9af81ff06d5e1d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/ordershipped.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/owner_reminder.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/pricealarm_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/senddownloadlinks.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/html/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/newsletteroptin.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/ordershipped.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/pricealarm_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/senddownloadlinks.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/email/plain/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/account_newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/contact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/order_newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/order_remark.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/salutation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/state.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/user_account.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/user_billing.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/user_email.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/user_noaccount.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/fieldset/user_shipping.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/forgotpwd_change_pwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/forgotpwd_email.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/formparams.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/guestbook.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/login_account.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/pricealarm.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/privatesales/accept_terms.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/privatesales/basketexcl.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/privatesales/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/recommendation_add.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/recommendation_edit.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/user_checkout_change.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/user_checkout_noregistration.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/user_checkout_registration.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/user_password.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/wishlist_publish.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/wishlist_search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/form/wishlist_suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/i18n/js_vars.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/base.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/page.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/popup.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/sidebar.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/layout/svg/shoppingbag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/err_404.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/err_setup.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/err_unknown.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/error.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/errors.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/exception.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/inputvalidation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/notice.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/success.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/message/user_blocked.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/dashboard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/downloads.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/inc/account_menu.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/inc/file_attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/noticelist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/order.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/password.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/recommendationadd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/recommendationedit.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/recommendationlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/register_confirm.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/register_success.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/account/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/basket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/agb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/basketcontents.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/basketcontents_list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/basketcontents_table.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/options.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/payment_other.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/payment_oxidcashondel.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/payment_oxidcreditcard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/payment_oxiddebitnote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/steps.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/trustedshops.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/inc/wrapping.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/order.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/payment.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/thankyou.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/checkout/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/compare/compare.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/compare/inc/compareitem.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/ajax/fullproductinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/ajax/productmain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/compare_links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/deliverytime.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/editTags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/fullproductinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/media.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/morepics.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/photoswipe.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/priceinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/productmain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/related_products.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/tabs.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/details/inc/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/guestbook/guestbook.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/clearcookies.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/contact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/content.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/content_plain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/news.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/info/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/list/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/list/morecategories.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/privatesales/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/privatesales/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/recommendations/inc/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/recommendations/recommlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/review/review.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/review/review_login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/search/search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/shop/mallstart.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/shop/start.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/tags/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/page/wishlist/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/content/content.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/content/inc/business_entity.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/content/inc/delivery_charge.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/content/inc/payment_charge.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/details/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/details/inc/delivery.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/details/inc/object.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/details/inc/payment.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/details/inc/price.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/rdfa/rdfa.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/address/billing_address.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/address/shipping_address.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/breadcrumb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/dynscript.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/comments.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/connect.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/enable.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/facepile.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/init.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/like.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/facebook/share.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/categorylist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/info.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/manufacturerlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/services.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/footer/vendorlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/betanote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/categorylist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/cookienote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/currencies.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/languages.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/loginbox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/minibasket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/servicebox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/header/servicemenu.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/itemsperpage.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/listdisplaytype.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/listlocator.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/paging.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/locator/sort.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/manufacturersslider.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/minibasket/countdown.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/minibasket/minibasket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/minibasket/minibasketmodal.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/minibasket/newbasketitemmsg.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/bargainitems.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/compare_links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/listitem_grid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/listitem_infogrid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/listitem_line.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/product/selectbox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/promoslider.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/reviews/rating.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/reviews/reviews.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/rss.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/shoplupe/ratings.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/adminbanner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/categorytree.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/news.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/partners.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/recommendation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/sidebar/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/trustedshops/info.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/flow/tpl/widget/trustedshops/ratings.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/components/sth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/custom/ajax_econda_recommendations.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/custom/dir.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/newsletteroptin.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/0644a5f7c7ba7a24aa32de1108873621.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/07a00550864805167fe36871a088056d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/094ae7ec54c41d86342e6351bb3f3d7f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/0b5479410464afce8c581cf882d8ed2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/11032e833d4049cb384e56f6f2fd9dbf.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/1254a98c8c65c8113ef2ea2112617864.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/14c6967a2454846a79ee5f627893cba4.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/179f22002698b731f414b04a0e4e37df.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/1b5c4572e237fc5ae0fadebeeb3576b9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/26b5073bb5b445d2671fec6f179d6d9d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/2e8103d7404b8dd1a6076114d4b53a5e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/2fd248c23fa387e827b8337629587153.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/32a6f1834d1ea125177481a72c1008e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/35f80fdcb3517e74b9705fbdfffbe95f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/39824dacfb1e134d093794f078a1b2d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/3aaa9a93990b515b7a0102e408963bf6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/3f529f194b85b23211245a7c165eb782.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/40275a972b732f02e5def23df4d880de.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/402fcf35715cba173052ab1aa4acd26f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/408a03f17146e4a675c7629726f93615.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/44fc6da73307cf71ed650df63e5868b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/55b7f56ed800258d2cffc27db05761ea.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/57ebbf1767c8518d39cea4f61eb6bf4f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/5a2872d5771d19827368e57387220265.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/5f996423964e8a78f09f42ec31d5de62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/62d78bf1678b44d2325b036251ab404f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/64c0e6df2e567b39d36fcad2752d658c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/6776d996e9df55498adce8332418f718.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/68c524aaeeb72a4082c9f435499febeb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/6a32d682fb2cf4f02bcc272346e0cf20.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/6c9af57e9ec19ea4fa4ceb325557a9f3.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/6ee97bd6575b9e4b9510f9f0c5632206.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/715623facf9e0cc2325223f980d6904a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/73ba40c66925f76ee7266d4a0a5fd149.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/749652dbca298b70c53467680751c957.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/761b4d9aee88f24d896899228c89412e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/78b4f4d889de0117316ecdec62880ce1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/7b78376a96e01d521879125ed3b68bab.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/7f00a25c830a8b00c216a23613674b62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/80a3e07c52a9e739c498be6c3668ee4e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/8f1e8ceecae20fba96d47d9f091e0b2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/927294ecbe6d58f5788c856d50716770.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/9d4e1e81c346d8d62a3e7a13fa7c42e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/9d837ac943d4088d44d71752d6e49680.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/9d8c9e6f08808d5667eaa159b61c3e3f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/a1bdd32f7fc3617af85ac9745c6035b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/a390dfce0b08b982577c00ce1b4c3c3c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/a5ba6b86b8862f7d61a1cf9a7b4779cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/a6180a39d8d4aa1f0444659925fc4e0a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ac0184c9d7647ba02016ffa3d74d6816.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ad12e5769f58a1e0e19e878d28efc274.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/adbc386d8d1cd678fba6f6cb50e44a6e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/b5b5d8d34778b7d60a37497d7d1570e6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/b6ff0983052ece48c3af56bc8359f37d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/b8d77385f4627b4e8e196925a50fbf97.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ba896d682d491c0e6759df0c1875668f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/bec5be58eb802c1451abfcaa8091f2cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/c25339d66fffd959b4d6378ae6493032.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/c6020abde52fdaa9a46caae55a8597f9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/c8034a4e79c4ec298dc88891ee7982a8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ca932a969985f5ea09ed9fc0bb8dd1e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/cca402bd65c5846d57a2982a62cfccba.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/d79b9d9c8932f972782ab3fb25ee92fb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/d823d195000b151bb8f354a93352c3f1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/d8c9078ccc5e855f636e11bbffc0eee1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/d92dd63bdd107e7bb5b5b9e2609ba058.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/da81aeafd05b7c2ab1ec5df35b70e42d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/de76a91594964829ed63447a6129bcf8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ded455ab6a4b2b4110d2e4c121526313.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e27bd7e2b89abb9efda2d95554845eb7.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e34896b4801175353df9ef870ef96519.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e8d731079b1a832ed394959a899caa1f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e96bec982532470f17eff37006665401.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e9db0f4301cc61a0510f53161ac598fc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/e9f8f03c6ca39c6166a58faa73462959.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ea173f4f7ad3e2f16ebe768da288b374.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/f220d0d16e699505c63ba714c19cc05f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/fba17825d506a503b72440c3e39b40c6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/fbddc2d44cdef447150b667092e0bea6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order/ff10ecff37095a6ef9af81ff06d5e1d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/ordershipped.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/owner_reminder.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/pricealarm_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/senddownloadlinks.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/html/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/newsletteroptin.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/ordershipped.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/pricealarm_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/senddownloadlinks.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/email/plain/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/account_newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/contact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/order_newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/order_remark.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/salutation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/state.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/user_account.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/user_billing.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/user_email.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/user_noaccount.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/fieldset/user_shipping.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/forgotpwd_change_pwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/forgotpwd_email.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/formparams.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/guestbook.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/login_account.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/pricealarm.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/privatesales/accept_terms.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/privatesales/basketexcl.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/privatesales/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/recommendation_add.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/recommendation_edit.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/user_checkout_change.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/user_checkout_noregistration.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/user_checkout_registration.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/user_password.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/wishlist_publish.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/wishlist_search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/form/wishlist_suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/i18n/js_vars.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/base.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/page.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/popup.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/sidebar.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/layout/svg/shoppingbag.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/err_404.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/err_setup.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/err_unknown.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/error.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/errors.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/exception.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/inputvalidation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/notice.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/success.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/message/user_blocked.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/dashboard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/downloads.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/forgotpwd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/inc/account_menu.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/inc/file_attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/noticelist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/order.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/password.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/recommendationadd.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/recommendationedit.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/recommendationlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/register.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/register_confirm.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/register_success.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/account/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/basket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/agb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/basketcontents.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/basketcontents_list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/basketcontents_table.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/options.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/payment_other.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/payment_oxidcashondel.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/payment_oxidcreditcard.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/payment_oxiddebitnote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/steps.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/trustedshops.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/inc/wrapping.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/order.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/payment.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/thankyou.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/checkout/user.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/compare/compare.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/compare/inc/compareitem.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/ajax/fullproductinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/ajax/productmain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/compare_links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/deliverytime.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/editTags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/fullproductinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/media.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/morepics.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/photoswipe.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/priceinfo.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/productmain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/related_products.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/tabs.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/details/inc/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/guestbook/guestbook.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/clearcookies.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/contact.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/content.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/content_plain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/news.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/info/suggest.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/list/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/list/morecategories.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/privatesales/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/privatesales/login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/recommendations/inc/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/recommendations/recommlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/review/review.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/review/review_login.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/search/search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/shop/mallstart.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/shop/start.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/tags/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/page/wishlist/wishlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/content/content.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/content/inc/business_entity.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/content/inc/delivery_charge.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/content/inc/payment_charge.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/details/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/details/inc/delivery.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/details/inc/object.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/details/inc/payment.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/details/inc/price.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/rdfa/rdfa.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/address/billing_address.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/address/shipping_address.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/breadcrumb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/dynscript.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/comments.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/connect.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/enable.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/facepile.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/init.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/invite.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/like.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/facebook/share.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/categorylist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/info.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/manufacturerlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/newsletter.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/services.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/footer/vendorlist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/betanote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/categorylist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/cookienote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/currencies.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/languages.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/loginbox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/minibasket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/search.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/servicebox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/header/servicemenu.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/attributes.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/itemsperpage.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/listdisplaytype.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/listlocator.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/paging.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/locator/sort.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/manufacturersslider.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/minibasket/countdown.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/minibasket/minibasket.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/minibasket/minibasketmodal.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/minibasket/newbasketitemmsg.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/bargainitems.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/compare_links.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/listitem_grid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/listitem_infogrid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/listitem_line.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/product/selectbox.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/promoslider.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/reviews/rating.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/reviews/reviews.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/rss.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/shoplupe/ratings.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/adminbanner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/categorytree.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/news.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/partners.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/recommendation.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/sidebar/tags.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/trustedshops/info.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl/widget/trustedshops/ratings.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/0644a5f7c7ba7a24aa32de1108873621.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/07a00550864805167fe36871a088056d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/094ae7ec54c41d86342e6351bb3f3d7f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/0b5479410464afce8c581cf882d8ed2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/11032e833d4049cb384e56f6f2fd9dbf.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/1254a98c8c65c8113ef2ea2112617864.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/14c6967a2454846a79ee5f627893cba4.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/179f22002698b731f414b04a0e4e37df.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/1b5c4572e237fc5ae0fadebeeb3576b9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/26b5073bb5b445d2671fec6f179d6d9d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/2e8103d7404b8dd1a6076114d4b53a5e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/2fd248c23fa387e827b8337629587153.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/32a6f1834d1ea125177481a72c1008e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/35f80fdcb3517e74b9705fbdfffbe95f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/39824dacfb1e134d093794f078a1b2d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/3aaa9a93990b515b7a0102e408963bf6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/3f529f194b85b23211245a7c165eb782.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/40275a972b732f02e5def23df4d880de.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/402fcf35715cba173052ab1aa4acd26f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/408a03f17146e4a675c7629726f93615.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/44fc6da73307cf71ed650df63e5868b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/55b7f56ed800258d2cffc27db05761ea.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/57ebbf1767c8518d39cea4f61eb6bf4f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/5a2872d5771d19827368e57387220265.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/5f996423964e8a78f09f42ec31d5de62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/62d78bf1678b44d2325b036251ab404f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/64c0e6df2e567b39d36fcad2752d658c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/6776d996e9df55498adce8332418f718.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/68c524aaeeb72a4082c9f435499febeb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/6a32d682fb2cf4f02bcc272346e0cf20.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/6c9af57e9ec19ea4fa4ceb325557a9f3.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/6ee97bd6575b9e4b9510f9f0c5632206.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/715623facf9e0cc2325223f980d6904a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/73ba40c66925f76ee7266d4a0a5fd149.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/749652dbca298b70c53467680751c957.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/761b4d9aee88f24d896899228c89412e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/78b4f4d889de0117316ecdec62880ce1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/7b78376a96e01d521879125ed3b68bab.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/7f00a25c830a8b00c216a23613674b62.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/80a3e07c52a9e739c498be6c3668ee4e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/8f1e8ceecae20fba96d47d9f091e0b2c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/927294ecbe6d58f5788c856d50716770.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/9d4e1e81c346d8d62a3e7a13fa7c42e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/9d837ac943d4088d44d71752d6e49680.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/9d8c9e6f08808d5667eaa159b61c3e3f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/a1bdd32f7fc3617af85ac9745c6035b8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/a390dfce0b08b982577c00ce1b4c3c3c.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/a5ba6b86b8862f7d61a1cf9a7b4779cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/a6180a39d8d4aa1f0444659925fc4e0a.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ac0184c9d7647ba02016ffa3d74d6816.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ad12e5769f58a1e0e19e878d28efc274.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/adbc386d8d1cd678fba6f6cb50e44a6e.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/b5b5d8d34778b7d60a37497d7d1570e6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/b6ff0983052ece48c3af56bc8359f37d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/b8d77385f4627b4e8e196925a50fbf97.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ba896d682d491c0e6759df0c1875668f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/bec5be58eb802c1451abfcaa8091f2cc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/c25339d66fffd959b4d6378ae6493032.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/c6020abde52fdaa9a46caae55a8597f9.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/c8034a4e79c4ec298dc88891ee7982a8.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ca932a969985f5ea09ed9fc0bb8dd1e1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/cca402bd65c5846d57a2982a62cfccba.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/d79b9d9c8932f972782ab3fb25ee92fb.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/d823d195000b151bb8f354a93352c3f1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/d8c9078ccc5e855f636e11bbffc0eee1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/d92dd63bdd107e7bb5b5b9e2609ba058.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/da81aeafd05b7c2ab1ec5df35b70e42d.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ded455ab6a4b2b4110d2e4c121526313.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/e27bd7e2b89abb9efda2d95554845eb7.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/e34896b4801175353df9ef870ef96519.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/e96bec982532470f17eff37006665401.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/e9db0f4301cc61a0510f53161ac598fc.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/e9f8f03c6ca39c6166a58faa73462959.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ea173f4f7ad3e2f16ebe768da288b374.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/f220d0d16e699505c63ba714c19cc05f.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/fba17825d506a503b72440c3e39b40c6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/fbddc2d44cdef447150b667092e0bea6.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order/ff10ecff37095a6ef9af81ff06d5e1d1.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/html/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/plain/order_cust.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/email/plain/order_owner.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/layout/base.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/layout/footer.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/layout/header.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/page/details/details.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/page/details/inc/productmain.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/page/list/list.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/page/shop/start.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/footer/info.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/footer/services.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/header/categorylist.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/header/cookienote.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/product/listitem_grid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/modified/tpl_child/widget/product/listitem_infogrid.tpl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/filled.html" afterPath="$PROJECT_DIR$/mockup/filled.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mockup/start.html" afterPath="$PROJECT_DIR$/mockup/start.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.css" afterPath="$PROJECT_DIR$/todora.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/todora.js" afterPath="$PROJECT_DIR$/todora.js" />
     </list>
@@ -26,8 +883,8 @@
       <file leaf-file-name="filled.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup/filled.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+            <state relative-caret-position="105">
+              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -36,18 +893,8 @@
       <file leaf-file-name="filled2.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup/filled2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="107" column="72" lean-forward="false" selection-start-line="107" selection-start-column="72" selection-end-line="107" selection-end-column="72" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tether.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tether.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -56,8 +903,8 @@
       <file leaf-file-name="start.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mockup/start.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="270">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -66,18 +913,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="105">
+              <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -96,8 +933,18 @@
       <file leaf-file-name="todora.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/todora.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="160" column="13" lean-forward="false" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
+            <state relative-caret-position="500">
+              <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -118,11 +965,9 @@
       <file leaf-file-name="todora.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/todora.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="339" column="105" lean-forward="false" selection-start-line="339" selection-start-column="105" selection-end-line="339" selection-end-column="105" />
-              <folding>
-                <element signature="n#!!block;n#getProgress#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="693">
+              <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,6 +1001,12 @@
       <find>checkbox-div</find>
       <find>1/2</find>
       <find>amountOf</find>
+      <find />
+      <find>delEntry</find>
+      <find>del todo</find>
+      <find>progFilled</find>
+      <find>changeEntr</find>
+      <find>input</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -174,11 +1025,12 @@
         <option value="$PROJECT_DIR$/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/popper.js" />
         <option value="$PROJECT_DIR$/popper.min.js.map.js" />
-        <option value="$PROJECT_DIR$/mockup/start.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/mockup/filled.html" />
-        <option value="$PROJECT_DIR$/todora.css" />
         <option value="$PROJECT_DIR$/mockup/filled2.html" />
+        <option value="$PROJECT_DIR$/mockup/filled.html" />
+        <option value="$PROJECT_DIR$/mockup/start.html" />
+        <option value="$PROJECT_DIR$/readme.txt" />
+        <option value="$PROJECT_DIR$/todora.css" />
         <option value="$PROJECT_DIR$/todora.js" />
       </list>
     </option>
@@ -212,7 +1064,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -229,8 +1080,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -337,12 +1189,15 @@
       <workItem from="1509889449821" duration="2831000" />
       <workItem from="1509985605965" duration="8379000" />
       <workItem from="1510083520868" duration="3190000" />
-      <workItem from="1510152715036" duration="6175000" />
+      <workItem from="1510152715036" duration="6373000" />
+      <workItem from="1510569360370" duration="3734000" />
+      <workItem from="1510738877359" duration="779000" />
+      <workItem from="1510759320577" duration="2095000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53733000" />
+    <option name="totallyTimeSpent" value="60539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -353,17 +1208,17 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26037195" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -402,22 +1257,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/animate.css" />
+    <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -471,20 +1312,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="117" column="146" lean-forward="false" selection-start-line="117" selection-start-column="140" selection-end-line="117" selection-end-column="146" />
-          <folding>
-            <element signature="n#!!block;n#getProgress#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -500,14 +1332,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/animate.css" />
     <entry file="file://$PROJECT_DIR$/mockup/start.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -542,22 +1367,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23670">
-          <caret line="1578" column="1" lean-forward="false" selection-start-line="1578" selection-start-column="1" selection-end-line="1578" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/animate.css" />
+    <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -577,9 +1388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1380">
           <caret line="92" column="10" lean-forward="true" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-          <folding>
-            <element signature="n#!!block;n#getProgress#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,14 +1426,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json" />
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1170">
@@ -644,9 +1446,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!block;n#getProgress#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -664,57 +1464,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/animate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/animate.css" />
     <entry file="file://$PROJECT_DIR$/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="241" lean-forward="false" selection-start-line="3" selection-start-column="241" selection-end-line="3" selection-end-column="241" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.min.js" />
     <entry file="file://$PROJECT_DIR$/bootstrap.min.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="sourcemapFileViewerProvider">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/popper.js" />
     <entry file="file://$PROJECT_DIR$/popper.min.js.map" />
+    <entry file="file://$PROJECT_DIR$/tether.min.js" />
+    <entry file="file://$PROJECT_DIR$/mockup/filled2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mockup/filled.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="40" lean-forward="false" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data.json" />
+    <entry file="file://$PROJECT_DIR$/mockup/start.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -725,31 +1521,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data.json">
+    <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="60" lean-forward="false" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/start.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="105">
+          <caret line="7" column="37" lean-forward="false" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/filled.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="32" column="45" lean-forward="false" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tether.min.js">
+    <entry file="file://$PROJECT_DIR$/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -759,35 +1547,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/todora.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="160" column="13" lean-forward="false" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mockup/filled2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="107" column="72" lean-forward="false" selection-start-line="107" selection-start-column="72" selection-end-line="107" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="500">
+          <caret line="100" column="17" lean-forward="true" selection-start-line="100" selection-start-column="17" selection-end-line="100" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/todora.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="339" column="105" lean-forward="false" selection-start-line="339" selection-start-column="105" selection-end-line="339" selection-end-column="105" />
-          <folding>
-            <element signature="n#!!block;n#getProgress#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="693">
+          <caret line="320" column="18" lean-forward="false" selection-start-line="320" selection-start-column="18" selection-end-line="320" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
