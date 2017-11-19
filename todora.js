@@ -26,8 +26,11 @@ $(document).ready(function() {
 
     //Create new TODOList
     document.getElementById("createTODO").addEventListener("click", function(){
-        var name = $("#inputNewList").val();
-        $("#inputNewList").val("");
+        var name = "Liste";
+        if($("#inputNewList").val() != ""){
+            var name = $("#inputNewList").val();
+            $("#inputNewList").val("");
+        }
         ID = addTodoListToStore(name);
         addTodoListToDom(name, ID);
         initEntry = addEntryToStore("Beispiel", ID);
@@ -53,8 +56,11 @@ function addTodoListToDom(name, ID){
     //Add button functionality
     var addEntryButton = $('#' + ID + " .add");
     addEntryButton.bind("click",function(){
-        name = $("#" + ID + " input.todo-entry-input").val();
-        $("#" + ID+ " input.todo-entry-input").val("");
+        var name = "Beispiel";
+        if($("#" + ID + " input.todo-entry-input").val() != ""){
+            name = $("#" + ID + " input.todo-entry-input").val();
+            $("#" + ID+ " input.todo-entry-input").val("");
+        }
         entryID = addEntryToStore(name, ID);
         addEntryToDom(name, entryID, ID);
     });
